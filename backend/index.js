@@ -181,7 +181,7 @@ passport.deserializeUser(function (user, cb) {
 //const stripe = require("stripe")(process.env.STRIPE_SERVER_KEY);  murshid pls recheck this part
 
 const stripe = require("stripe")(
-  "sk_test_51Pto1LRwTr27X0wVT9c4JV92BjAWLXaYbeuOLULAgzMuWytmFybS9eVvxCJ9SMacgWWgsajqg9Y1hWNc9fIJPsl400nPH2xRot"
+  "Stripe API key here"
 );
 
 server.post("/create-payment-intent", async (req, res) => {
